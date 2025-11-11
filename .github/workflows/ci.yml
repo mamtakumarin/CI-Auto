@@ -12,12 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Print Message
-        run: echo "Step 1 executed"
-
-      - name: list files
-        run: ls -la
-
-      - name: Show current directory
-        run: pwd
+      - name: check python version
+        run: python -v
 

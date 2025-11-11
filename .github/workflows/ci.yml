@@ -12,5 +12,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run CI Step
-        run: echo "CI Pipeline Successfully Triggered!"
+      - name: Print Message
+        run: echo "Step 1 executed"
+
+      - name: list files
+        run: ls -la
+
+      - name: Show current directory
+        run: pwd
+

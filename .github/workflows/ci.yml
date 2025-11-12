@@ -17,6 +17,6 @@ jobs:
         with:
          python-version: '3.13' 
 
-      - name: check python version
-        run: python -v
+      - name: execute python code
+        run: python hello.py
 
